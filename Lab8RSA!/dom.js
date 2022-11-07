@@ -41,6 +41,6 @@ showpara.style.display = "block";
 
 //#7//
 
-let welcomeMessage = document.querySelector("#name")
+let welcomeMessage = document.querySelector("h1")
 
-welcomeMessage.innerHTML = "Welcome Grant!"
+welcomeMessage.innerHTML = "Welcome Grant"
