@@ -1,0 +1,11 @@
+.theCoins{
+    padding-top: 20px;
+}
+
+button{
+    height: 40px;
+    width: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: lightsteelblue
+}

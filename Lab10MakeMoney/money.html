@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="./money.css">
+
+</head>
+<body>
+
+<form>
+
+    <h4>
+    <label for="moneyCount">How many? </label>
+    <!-- We will use the select element in Javascript. To determine amounts of coins -->
+    <!-- line 16 label's for attribute must match line 19's name attribute (not when select). Purpose is for use to be able to click the word "how many" and have the drop down open. -->
+    <input type="number" id="numberOfCoins" name="moneyCount">
+    </h4>
+
+    <h4>
+    <label for="moneyType">Which Coin? </label>
+    <!-- We will need this select element as well, but this will determine which type of coin. -->
+    <select id="differentCoins" name="moneyType">
+        <option value="Penny">Penny</option>
+        <option value="Nickel">Nickel</option>
+        <option value="Dime">Dime</option>
+        <option value="Quarter">Quarter</option>
+    </select>
+    </h4>
+
+    <button>Make Money!</button>
+
+</form>
+
+    <div class="theCoins">
+       
+    </div>
+
+
+<script src="./money.js"></script>
+</body>
+</html>
