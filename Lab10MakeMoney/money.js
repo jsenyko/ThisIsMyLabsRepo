@@ -15,7 +15,10 @@ function handleSubmit(e){
     for(let i = 0; i < howManyCoin; i ++){
         addMoneyToList(whichCoin);
     }
+    console.log(form);
+ 
 }
+
 
 //now have container. will have to use append inside the contianer. 
 
