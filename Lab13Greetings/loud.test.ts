@@ -21,6 +21,8 @@ describe('Loud greeting tests', () => {
 
         loudGreeting.addVolume();
 
+        LoudGreet = loudGreeting.greet("Kevin")
+
         expect(LoudGreet).toBe("hey, Kevin !!!")
     })
 

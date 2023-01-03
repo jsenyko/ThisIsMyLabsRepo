@@ -1,5 +1,5 @@
 import { Greeter } from "./greet";
-import { JsGreeter } from "./JSgreeter";
+
 
 describe('greeting tests', () => {
 
