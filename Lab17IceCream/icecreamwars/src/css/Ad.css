@@ -1,0 +1,29 @@
+.Ad{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #222;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    width: 250px;
+    height: 120px;
+    box-shadow: 0 1px 4px 3px #888;
+}
+
+.Ad p{
+    margin: 0;
+}
+
+p.Ad_choice {
+    margin-top: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Ad--dark {
+    color: #fff;
+    background-color: #222;
+    border-color: white;
+}

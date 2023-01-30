@@ -1,0 +1,32 @@
+.Votes {
+    /* margin-left: 50%;
+    position: absolute */
+    /* transform: translate(50%, -180%); */
+    margin-left: 50%;
+    margin-top: -25%
+   
+}
+
+.progressChocolate {
+    background-color: gray;
+}
+
+.progressChocolate::-moz-progress-bar{
+    background-color: #4f2c2c
+}
+
+.progressVanilla {
+    background-color: lightgray;
+}
+
+.progressVanilla::-moz-progress-bar{
+    background-color: antiquewhite;
+}
+
+.progressStrawberry {
+    background-color: gray;
+}
+
+.progressStrawberry::-moz-progress-bar{
+    background-color: palevioletred;
+}
