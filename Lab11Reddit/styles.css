@@ -1,4 +1,8 @@
-h1{
+body{
+    background-color: beige;
+    position: relative;
     display: flex;
-    align-items: center;
+    flex-direction: column-reverse;
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

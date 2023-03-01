@@ -5,7 +5,7 @@ let fullName = firstName.concat(lastName);
 
 console.log(fullName);
 
-let population = (5,644,300);
+let population = (5644300);
 
 console.log(population);
 

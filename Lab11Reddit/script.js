@@ -18,6 +18,8 @@ function apiCall(){
         document.body.appendChild(title)
         document.body.appendChild(img)
         document.body.appendChild(url)
+
+        
         
         }
     })

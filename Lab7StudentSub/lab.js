@@ -1,8 +1,8 @@
 //#1//
-let submissions = [{name: "Jane", score: 95, date: 01/24/2020, passed: true},
-                    {name: "Joe", score: 77, date: 05/14/2018, passed: true},
-                    {name: "Jack", score: 59, date: 07/05/2019, passed: false},
-                    {name: "Jill", score: 88, date: 04/22/2022, passed: true}
+let submissions = [{name: "Jane", score: 95, date: "01/24/2020", passed: true},
+                    {name: "Joe", score: 77, date: "05/14/2018", passed: true},
+                    {name: "Jack", score: 59, date: "07/05/2019", passed: false},
+                    {name: "Jill", score: 88, date: "04/22/2022", passed: true}
                     ];
 
 
@@ -83,21 +83,28 @@ function findAverageScore(array){
 }
 
 //#9//
-function filterPassing(array){
-    return array.filter((value) => {
-        return value.passed;
+
+ function filterPassing(array){
+   return array.filter((x) => {
+       return x.passed;
     });
+ }
+
+  function filterPassing(array){
+      return array.filter((value) => {
+         return value.passed;
+      });
 }
-//console.log(filterPassing(submissions))
+console.log(filterPassing(submissions))
 
 //#10//
 
-function filter90AndAbove(array){
-    let find = array.filter(function (submissions){
-        return submissions.score >= 90;
-    })
+ function filter90AndAbove(array){
+     let find = array.filter(function (submissions){
+         return submissions.score >= 90;
+     })
 
-    return find;
-}
+     return find;
+ }
 
-console.log(filter90AndAbove(submissions))
+//console.log(filter90AndAbove(submissions))

@@ -3,7 +3,7 @@ import {Greeter} from "./greet";
 class HTMLGreeter extends Greeter {
 
     tagName:string = "h1";
-
+    //optional parameters get a "?"
     constructor(greeting:string, tagName?:string){
         super(greeting);
         

@@ -1,13 +1,17 @@
 let name1 = "Beth"
 let name2 = "Ryan"
-let name3 = "Ronald"
+let name3 = "Mike"
 
-if((name3 < name2) && (name1 < name3)) {
+if((name3.length > name2.length) && (name1.length < name3.length)) {
     console.log('Ronald has the longest name')
 }
 
+
+
+
+
 //was trying to write code here for names of the same length, but couldn't get it 
-if((name1 == name2) && (name2 == name3) (name1 == name3)) {
+if((name1.length === name2.length) && (name2.length == name3.length) (name1.length == name3.length)) {
     console.log('All the names are the same length')
 }
 
